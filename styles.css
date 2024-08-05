@@ -1,2 +1,25 @@
+.moviePic {
+  height: 300px;            /* Adjust height as needed */
+  width: 200px;             /* Adjust width as needed */
+  opacity: 0.9;            /* Slightly transparent for a modern look */
+  display: block;          /* Ensure the image is a block element */
+  margin: 0 auto;          /* Center the image horizontally */
+}
+
+/* Style for the movie description */
+.movieDetail {
+  position: absolute;      /* Use absolute positioning */
+  top: 50%;                /* Center vertically (needs to set the container to relative or absolute) */
+  left: 50%;               /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact center positioning */
+  width: 80%;              /* Adjust width as needed */
+  text-align: center;      /* Center align text */
+  font-size: 1.2em;        /* Adjust font size for readability */
+  color: #333;             /* Dark gray text color for better readability */
+  background-color: rgba(255, 255, 255, 0.8); /* Slight white background for contrast */
+  padding: 20px;           /* Add some padding for better spacing */
+  border-radius: 8px;      /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
 
 /* Your CSS Code here. */
